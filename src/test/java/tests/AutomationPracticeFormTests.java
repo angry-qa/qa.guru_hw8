@@ -10,11 +10,6 @@ public class AutomationPracticeFormTests extends TestBase {
 
     AutomationPracticeFormPage steps = new AutomationPracticeFormPage();
 
-    @BeforeAll
-    static void setup() {
-        Configuration.startMaximized = true;
-    }
-
     @Test
     void positiveScenario() {
         steps.openPage();
